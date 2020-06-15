@@ -1,0 +1,13 @@
+{
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "https://funded-pet-library.moonhighway.com",
+        "headers": {
+          "user-agent": "GraphQL"
+        },
+        "introspect": true
+      }
+    }
+  }
+}

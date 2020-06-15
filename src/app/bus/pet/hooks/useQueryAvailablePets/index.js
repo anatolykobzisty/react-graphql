@@ -6,5 +6,7 @@ import { loader } from 'graphql.macro';
 const queryAvailablePets = loader('./gql/queryAvailablePets.gql');
 
 export const useQueryAvailablePets = () => {
-  return useQuery(queryAvailablePets);
+  return useQuery(queryAvailablePets, {
+    // pollInterval: 500,
+  });
 };
